@@ -18,6 +18,9 @@ public class Main {
         rand = new Random();
         XXX = new LinkedStack<Double>();
 
+        //Triple<Integer,Integer,Integer> YYY = new Triple<Integer,Integer,Integer>(1,2,3);
+        //System.out.println(YYY);
+
         populate();
 
         for(int i=0; i<16; i++) {
