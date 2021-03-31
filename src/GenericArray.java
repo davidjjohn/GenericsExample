@@ -1,4 +1,4 @@
-// Figure 13-2 from text
+// Figure 13-2 from text with expandCapacity() added
 
 public class GenericArray<T> {
 

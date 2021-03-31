@@ -2,6 +2,8 @@
 
 import java.util.NoSuchElementException;
 
+// my LinkedQueue<T> is promising to implement all the
+// methods specified in the interface Queue<T>
 public class LinkedQueue<T> implements Queue<T> {
 
     // private (inner) class
@@ -61,6 +63,10 @@ public class LinkedQueue<T> implements Queue<T> {
     public T peek(){
         if (this.isEmpty()) throw new NoSuchElementException("Queue is empty");
         return head.value;
+    }
+
+    public String toString(){
+        return " Number of elements: "+this.count;
     }
 
 }

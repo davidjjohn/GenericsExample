@@ -2,7 +2,7 @@
 //
 //  Queue interface
 //
-//  If you implement this Queue interace you MUST provide the following
+//  If you implement this Queue interface you MUST provide the following
 //  functionality  (requirement)
 
 public interface Queue<T> {
